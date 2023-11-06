@@ -1,0 +1,190 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Feature section styles */
+.feature-section {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.feature-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, background-color 0.3s;
+    max-width: 400px;
+    margin: auto;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    background-color: #a8e6f9;
+}
+
+.feature-icon {
+    font-size: 48px;
+    color: #3498db;
+    margin-bottom: 20px;
+}
+
+.feature-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.feature-description {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Business section styles */
+.business-section {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.business-title {
+    font-size: 28px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.separator {
+    width: 70px;
+    height: 4px;
+    background-color: #007bff;
+    margin: 15px auto;
+}
+
+/* Works section styles */
+.works-section {
+    text-align: center;
+    padding: 50px 0;
+    background-image: linear-gradient(to right, #8d2993, #8e3fea);
+    color: #fff;
+}
+
+.step {
+    margin-bottom: 30px;
+}
+
+.step-icon {
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.step-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.step-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.section-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Font styles */
+.font-lato {
+    font-family: 'Kalpurush', sans-serif !important;
+}
+
+/* Modal styles */
+.modal-dialog {
+    max-width: 800px;
+    width: 100%;
+}
+
+
+.flip-card {
+    display: flex;
+    align-items: start; /* Align items to the start (top) of the container */
+}
+
+.flip-card-inner {
+    display: flex;
+    flex-direction: column; /* Stack the inner divs vertically */
+}
+
+
+/* Custom class for the cards */
+.custom-card {
+    width: 100%; /* Adjust the width as needed */
+    /* margin-bottom: 15px; */
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, background-color 0.3s;
+    /* margin: auto; */
+}
+.card-title{
+    color: #0d7a5f;
+    text-align: center;
+    font-weight: bold;
+}
+.custom-card:hover {
+    transform: translateY(-5px);
+    background-color: #a8e6f9;
+    border-color:#0d7a5f ;
+}
+
+/* Add this CSS to your stylesheet or in a <style> tag in the head of your HTML */
+
+footer {
+    background-color: #343a40; /* Dark background color */
+}
+
+.logo {
+    width: 70px; /* Adjust the logo width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.slogan {
+    color: #6c757d; /* Subdued color for the slogan */
+}
+
+.contact-info h4 {
+    color: #6c757d; /* Subdued color for the Contact Us heading */
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+
+
+
+
+/* Owl Carousel styles */
+.owl-prev,
+.owl-next {
+    width: 25px !important;
+    height: 50px !important;
+    position: absolute !important;
+    top: 35% !important;
+    display: block !important;
+    border: 0px solid black !important;
+}
+
+.owl-prev i,
+.owl-next i {
+    transform: scale(2, 2) !important;
+    color: #b5b5b5 !important;
+}
